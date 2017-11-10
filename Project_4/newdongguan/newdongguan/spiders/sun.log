@@ -1,0 +1,56 @@
+2017-11-08 23:05:06 [scrapy] INFO: Scrapy 1.1.1 started (bot: newdongguan)
+2017-11-08 23:05:06 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'newdongguan.spiders', 'SPIDER_MODULES': ['newdongguan.spiders'], 'LOG_FILE': 'sun.log', 'USER_AGENT': 'Mozilla/5.0 ( NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36', 'BOT_NAME': 'newdongguan'}
+2017-11-08 23:05:06 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-08 23:05:06 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-08 23:05:06 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-08 23:05:06 [scrapy] INFO: Enabled item pipelines:
+['newdongguan.pipelines.NewdongguanPipeline']
+2017-11-08 23:05:06 [scrapy] INFO: Spider opened
+2017-11-08 23:05:06 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-08 23:05:06 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-08 23:05:07 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4&page=> (referer: None)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?page=82350&type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?page=120&type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?page=60&type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?page=90&type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] DEBUG: Crawled (200) <GET http://wz.sun0769.com/index.php/question/questionType?page=30&type=4> (referer: http://wz.sun0769.com/index.php/question/questionType?type=4&page=)
+2017-11-08 23:05:08 [scrapy] INFO: Closing spider (finished)
+2017-11-08 23:05:08 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3238,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 197476,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 8, 15, 5, 8, 801262),
+ 'log_count/DEBUG': 8,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2017, 11, 8, 15, 5, 6, 590293)}
+2017-11-08 23:05:08 [scrapy] INFO: Spider closed (finished)
