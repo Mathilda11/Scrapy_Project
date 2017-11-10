@@ -10,6 +10,7 @@ from scrapy.pipelines.images import ImagesPipeline
 import os
 
 class ImagesPipeline(ImagesPipeline):
+    # 获取settings文件里设置的变量值
     IMAGES_STORE = get_project_settings().get("IMAGES_STORE")
 
     def get_media_requests(self, item, info):
